@@ -37,7 +37,7 @@ function App() {
   };
       //Router
   const router = createBrowserRouter([{
-    path: "/home",
+    path: "/",
     element:  <><Navbar title="TextUtils" mode={mode} togglemode={togglemode}/>
                 <Alert alert={alert}/>
                 <div className="container">
